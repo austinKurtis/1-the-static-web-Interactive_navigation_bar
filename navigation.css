@@ -1,0 +1,35 @@
+ul {
+	list-style-type: none;
+	margin: 10px 10px;
+	padding: 0;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 1.4em;
+
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: yellow;
+	text-align: center;
+	padding: 20px 50px;
+	text-decoration: none;
+	background-color: purple;
+}
+
+li a:hover {
+	background-color: orange;
+	color: navy;
+}
+
+.active {
+	background-color: yellow;
+	color: purple;
+	padding: 25px 60px;
+	border-bottom: : 1px solid purple;
+	border-right: : 1px solid purple;
+	box-shadow: 0px 5px 10px purple;
+}
